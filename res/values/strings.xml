@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GOZINTA</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="wallet_img_desc">Wallet</string>
+    <string name="created_by_text">Created by Aida Syrkett</string>
+    <string name="split_bill_button">SPLIT\nTHE BILL</string>
+    <string name="num_people_hint"># OF PEOPLE</string>
+    <string name="bill_amount_hint">$BILL AMOUNT</string>
+    <string name="quality_text">QUALITY OF SERVICE:</string>
+    <string name="service_quality_prompt">Select quality of service</string>
+    <string name="excellent">EXCELLENT</string>
+    <string name="average">AVERAGE</string>
+    <string name="poor">POOR</string>
+    <string-array name="ServiceQualities">
+        <item >@string/excellent</item>
+        <item >@string/average</item>
+        <item >@string/poor</item>
+    </string-array>
+    <string name="calculate_tip_button">CALCULATE\nTIP</string>
+    <string name="builder_title">RESULTS</string>
+    <string name="builder_positive_button">Thanks!</string>
+    <string name="empty_bill_prompt">Please enter a proper bill amount</string>
+    <string name="empty_people_prompt">Please enter a proper amount of people in your party</string>
+    <string formatted="false" name="individual_bill_msg">Calculating  %s bill split for a party of %d, including %s tip for %s service…
+        \n\nINDIVIDUAL BILL, NO TIP: %s
+        \nINDIVIDUAL TIP: %s\nINDIVIDUAL TOTAL: %s</string>
+
+</resources>
